@@ -1,0 +1,8 @@
+﻿namespace Currencies.Bll;
+
+public class BusinessException : Exception
+{
+	public BusinessException(string message) : base(message)
+	{
+	}
+}
